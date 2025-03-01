@@ -1,0 +1,40 @@
+{
+    "product": [
+        {
+            "id": "1",
+            "name": "HP Victus, AMD Ryzen 5 5600H, NVIDIA RTX 3050, 16GB DDR4, 512GB SSD (Win11, Office21, Blue,...",
+            "price": 60990,
+            "quantity": 1,
+            "imageUrl": "https://m.media-amazon.com/images/I/711DWxBrdZL._AC_UL480_FMwebp_QL65_.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Silverblue, 12GB RAM, 1TB Storage), 200MP Camera, S Pen Included, Long Battery Life...",
+            "price": 165999,
+            "quantity": 1,
+            "imageUrl": "https://m.media-amazon.com/images/I/61sU8OqBs4L._AC_UY327_FMwebp_QL65_.jpg"
+        },
+        {
+            "id": "3",
+            "name": "iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Black",
+            "price": 73900,
+            "quantity": 1,
+            "imageUrl": "https://m.media-amazon.com/images/I/615O-NFQKdL._AC_UY327_FMwebp_QL65_.jpg"
+        },
+        {
+            "id": "4",
+            "name": "ASUS ROG Strix G16 (2023) 90WHr Battery, Intel Core i7-13650HX 13th Gen, 16 FHD+ 165Hz, 6GB RTX 4050, Gaming Laptop (16GB/1TB SSD/Windows 11/Office 2021/4-Zone...",
+            "price": 118789,
+            "quantity": 1,
+            "imageUrl": "https://m.media-amazon.com/images/I/71ozP7-hwzL._AC_UY327_FMwebp_QL65_.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Redmi Pad Pro| Snapdragon 7s Gen 2| 30.7cm(12.1) Tablet| 33+ Days Standby|10000mAh| HyperOS| 120Hz|6GB, 128GB| Quad Speakers|Wi-Fi 6| Mist Blue...",
+            "price": 21999,
+            "quantity": 1,
+            "imageUrl": "https://m.media-amazon.com/images/I/71xy1+l2DkL._AC_UY327_FMwebp_QL65_.jpg"
+        }
+        
+    ]
+}

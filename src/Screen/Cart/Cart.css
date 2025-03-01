@@ -1,0 +1,211 @@
+.cart{
+    background-color: whitesmoke;
+    padding: 20px 18px 18px;
+    display: flex;
+    gap: 10px;
+}
+
+.topLeftCart{
+    padding: 20px 15px 15px;
+    box-sizing: border-box;
+    width: 80%;
+    background-color: White;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.topLeftcartTitle{
+    font-size: 28px;
+}
+
+.desellectAllCart{
+    color: #007185;
+}
+
+.cartPriceTextDivider{
+    text-align: end;
+}
+
+.cartItemDiv{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.cartItemBlock{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid #e7e7e7e7;
+    border-bottom: 1px solid #e7e7e7e7;
+}
+
+.cartItemLeftBlock{
+    display: flex;
+    width: 80%;
+}
+
+.cartItemLeftBlockImge{
+    width: 20%;
+    flex-shrink: 0;
+}
+
+.cartItemLeftBlcokImg{
+    width: 100%;
+}
+
+.cartItemLeftBlockDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 6px;
+    margin-left: 20px;
+}
+
+.cartItemProductName{
+    font-size: 18px;
+}
+
+.inStockCart{
+    color: #007600;
+    font-size: 12px;
+}
+
+.elgFreeshp{
+    font-size:12px ;
+    color: #565959;
+}
+
+.amazonFullFillImage{
+    width:66px;
+}
+
+.fullFillImg{
+    width: 100%;
+}
+
+.checkBox{
+    font-size:12px;
+
+}
+.checkBoxSpan{
+    color: #007185;
+}
+
+.removePart{
+    display: flex;
+    gap: 5px;
+}
+
+.aftercart{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    color: #007185;
+    font-weight: 500;
+    /* border: 1px solid; */
+    width:50%;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.removeSaveSeeSave{
+    border-left: 1.8px solid #e4e2e2;
+    padding-left: 10px;
+
+
+
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #FFD700;
+    border-radius: 25px;
+    padding: 5px 15px;
+    background: white;
+    width:70px;
+    height: 18px;
+}
+.counter button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+.counter button:focus {
+    outline: none;
+}
+.counter span {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.removefromCart{
+    padding: 5px;
+    font-size: 14px;
+    background-color: #febd69;
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.cartItemRightBlock{
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.subTotal{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 20px;
+    font-weight: 500;
+}
+.subTotalItem{
+    font-weight: 500;
+}
+
+.topRightCart{
+    padding: 20px 15px 15px;
+    box-sizing: border-box;
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.subTotalTitle{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.subTotalTitlespan{
+    font-weight: 700;
+}
+
+.giftAddto{
+    display: flex;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.proceedToBuy{
+    font-size: 14px;
+    background-color:rgb(241, 241, 22);
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius:20px ;
+    font-weight: 500;
+}

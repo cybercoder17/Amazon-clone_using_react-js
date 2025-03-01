@@ -1,0 +1,241 @@
+.navbarBelt{
+    background-color: #131921;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    color: white;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.leftNavBar{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+
+}
+
+.leftNavbarBeltLogo{
+    /* border: 1px solid; */
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid;
+        border-radius: 3px;
+    }
+
+}
+
+.amazonLogoNavbar{
+    width: 97px;
+    height: 100%;
+}
+
+.navbar_inLogo{
+    margin-top: 3px;
+    margin-left: 2px;
+    font-weight: 400;
+}
+
+
+/* ----------------------------------- */
+
+.navbarBeltLocation{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 5px;
+    padding: 8px;
+    height: 30px;
+    cursor: pointer;
+    &:hover{
+        border-radius: 3px;
+        border: 1px solid;
+    }
+
+}
+
+.navbarBeltLocationImg{
+    width: 15px;
+    padding-top: 7px;
+}
+
+.navbarBeltLocationImgIcon{
+    margin-top: -1px;
+}
+.navbarBeltLocationPlace{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarBeltLocationTop{
+    font-size: 13px;
+    color: #ccc;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.navbarBeltLocationBottom{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.navbarBeltSearchBox{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 4px;
+    /* width: 50%; */
+}
+
+.navbarBeltsearchDiv{
+    display: flex;
+    width:100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #131921; 
+}
+
+.navbarBeltsearchBoxAll{
+    display: flex;
+    background-color: #cdcdcd;
+    gap: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    color: #4b4a4a;
+}
+
+.navbarBeltsearchBoxAllText{
+    font-size: 12px;
+    font-weight: 600;
+}
+/* ----------------------------- */
+.navbarBeltInputSearchBox{
+    padding: 5px;
+    width:600px;
+    height: 27px;
+    &::placeholder{
+        color: gray;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+/* ----------------- */
+
+.searchIconNavbarBelt{
+    background-color: #febd69;
+    font-size: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        background-color: #f1ba73;
+    }
+}
+
+.searchIconNavbarBeltIcon{
+    font-size: 20px;
+    color: black;
+}
+
+/* -------------------- */
+.rightSideNavbarBelt{
+    padding: 10px;
+    color: white;
+    display:flex;
+    gap: 5px;
+}
+
+.indianFlagCode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding: 8px;
+    gap: 5px;
+    cursor: pointer;
+    height: 30px;
+    &:hover{
+        border: 1px solid;
+        border-radius: 3px;
+    }
+
+   
+}
+
+.indiaFalg{
+    width: 20px;
+    height: 20px;    
+}
+
+
+.indiaCodeNavbarBelt{
+    font-size: 14px;
+    display: flex;
+    line-height: 10px;
+    align-items: center;
+    font-weight: 800;
+}
+
+.indiaCodeNavbarBeltDrp{
+    color: #ccc;
+}
+
+
+.helloSignInNavbarBelt{
+    display: flex;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    height: 30px;
+    padding: 8px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid;
+        border-radius: 3px;
+    }
+}
+
+.helloTopNavbarBelt{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.helloTopNavbarBeltDrp{
+    color: #ccc;
+    
+}
+
+.cartTitle{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cartItemNumberInNavbarBelt{
+    position: absolute;
+    bottom: 70%;
+    left: 22%;
+    color: #febd69;
+    font-weight: 600;
+    font-size: 16px
+
+}
